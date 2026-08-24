@@ -48,12 +48,12 @@ if (true) {
 //+++++++++++++++++++++++++++++++++Intresting++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // console.log(addone(5));
-function addone(num){
-        return num+1
+function addone(num) {
+    return num + 1
 }
-    
 
-const addtwo= function(num){
-    return num+2
+
+const addtwo = function (num) {
+    return num + 2
 }
 addtwo(5);
