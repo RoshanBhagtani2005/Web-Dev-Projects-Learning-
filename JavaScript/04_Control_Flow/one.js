@@ -45,6 +45,20 @@ else {
 
 }
 
+const userLoggedIn = true
+const debitcard = true
+const loggedInFromGoogle = false
+const loggedInFromMail = true
+
+if (userLoggedIn && debitcard) {
+    console.log("allow shopping");
+
+}
+if (loggedInFromGoogle || loggedInFromMail) {
+    console.log("User Logged In");
+
+}
+
 
 
 
